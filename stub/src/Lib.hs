@@ -1,6 +1,6 @@
 module Lib
-    ( someFunc
+    ( myrev
     ) where
 
-someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+myrev :: [a] -> [a] 
+myrev = reverse 
